@@ -1,0 +1,310 @@
+p {
+
+    color: rgb(255, 255, 255);
+    /*comentario*/ 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: "Tahoma", "Arial";
+    background-color: #000000;
+
+}
+/*Estilização da Sessão HEADER da pagina*/
+header{
+    background: linear-gradient( #02381d, #000000);
+    padding: 10px 0;
+}
+/*Estilização da Sessão NAV (navegação da pagina*/
+nav{
+    position: absolute;
+    top: 210px;
+    right: -150%;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 50px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #FF0000;
+    text-decoration: underline;
+
+}
+/*Estilização das listas da página*/
+ul{
+    list-style: none;
+}
+/*Estilização do logotipo*/
+.logo_caixa{
+    width: 600px;
+    position: relative;
+    right: -5%;
+
+}
+.logo{
+    width: 65%;
+}
+/*Banner*/
+.banner{
+    width: 100%;
+}
+/*ESTILIZAÇÃO DA AREA "SOBRE"*/
+.titulo-principal{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em; /* dobro da fonte padrão*/
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal{
+    width: 100%;
+    margin: 0 auto;
+    padding: 3em 0;
+    background:#000000;
+    text-align: justify;
+}
+.principal strong{
+    font-weight: bold;
+
+}
+.principal em {
+    font-style: italic;
+}
+.pizza{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 450px;
+}
+/*Estilização do Mapa*/
+.map {
+    padding: 3em 0;
+    background: linear-gradient( #000000, #02381d);
+}
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 650px;
+}
+.map p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+/*Área Benefícios e Vídeo*/
+.beneficios{
+    padding: 3em 0;
+    background:linear-gradient(#02381d,#000000);
+
+}
+.conteudo-beneficio{
+    width: 640px;
+    margin: 0 auto;
+    
+    
+}
+.lista-beneficio{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 80px;
+    
+    
+}
+.img_beneficios{
+    width: 35%;
+    opacity: 1;
+    transition: 400ms;
+
+}
+.img_beneficios:hover{
+    opacity: 0.7;
+}
+.itens{
+    line-height: 1.5;
+}
+.itens:before{
+    content: "★";
+}
+.itens:first-child{
+    font-weight: bold;
+
+}
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+
+footer{
+    text-align: center;
+    color: #000000;
+    padding: 40px 0;
+}
+/*Banner*/
+.banner{
+    width: 100%;
+}
+/*Copyright*/
+.copyright{
+    color:#ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+    
+}
+/*Menu cardapio*/
+.cardapio-titulo{
+
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.cardapio-item:before{
+       content: "🍕";
+}
+
+.cardapio{
+    width: 90%;
+    margin: 20px 0 50px 0;
+}
+
+.cardapio li {
+    display:inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+
+    margin: 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 4px solid #0b8307;
+    border-radius: 10px;
+
+}
+
+.cardapio li:hover{
+    border-color: #4af144;
+    cursor: pointer;
+
+}
+
+.cardapio li:active{
+    border-color: #088C19;
+
+}
+
+.cardapio li:hover h2{
+    font-size:50px;
+    color:darkred;
+
+}
+
+.cardapio h2{
+    font-size: 50px;
+    font-weight:bold;
+    color: #ffffff;
+
+}
+.cardapio_texto{
+    font-size: 25px;
+    margin-left: 50px;
+    color: white;
+    font-style: initial;
+}
+
+.img_cadapio{
+    text-align:center;
+    padding: 0 0 2% 0;
+
+}
+.img_cadapio{
+    width:200px;
+
+}
+.img_cardapio{
+    width: 200px;
+}
+.item_descricao{
+    font-size:18px;
+}
+
+/*Formulario de Contato */
+.contato_texto{
+    text-align:center;
+    padding: 0 0 2% 0;
+    color: white;
+
+}
+
+.contato-titulo{
+    font-size:30px;
+    font-weight: bold;
+    color: red;
+
+}
+
+.contato-item:before{
+    content:"🍕";
+    
+}
+
+form{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    color: white;
+
+}
+form label,form legend{
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+fieldset{
+    width: 75%;
+    padding-left: 5%;
+    margin-bottom:2%;
+
+}
+
+.input-padrao{
+    display:rgb(0, 0, 0);
+    margin: 0 0 20px;
+    padding:10px 25px;
+    width:85%;
+
+}
+
+.chk{
+    margin:20px 0;
+
+}
+
+.enviar{
+    width:40%;
+    padding:15px 0;
+    background:#088C19;
+    color:white;
+    font-weight: bold;
+    border-radius:3px;
+    transition:1s all;
+    cursor:pointer;
+
+}
+
+.enviar:hover{
+    background:#4af144;
+    transform:scale(1,1.2);
+}
